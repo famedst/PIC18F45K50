@@ -13,3 +13,4 @@ I recommend following this order
 8.- ADC.x
 9.- adc+lcd.x
 10.- SEL_aDC.x
+11.- USART_1.x
