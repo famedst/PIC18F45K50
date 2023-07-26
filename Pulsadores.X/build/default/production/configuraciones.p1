@@ -1,0 +1,83 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"14 configuraciones.c
+[p x PLLSEL  =  PLL4X    ]
+"15
+[p x CFGPLLEN  =  OFF    ]
+"16
+[p x CPUDIV  =  NOCLKDIV ]
+"17
+[p x LS48MHZ  =  SYS24X4 ]
+"20
+[p x FOSC  =  HSM        ]
+"21
+[p x PCLKEN  =  OFF      ]
+"22
+[p x FCMEN  =  OFF       ]
+"23
+[p x IESO  =  OFF        ]
+"26
+[p x nPWRTEN  =  ON      ]
+"27
+[p x BOREN  =  OFF       ]
+"28
+[p x BORV  =  190        ]
+"29
+[p x nLPBOR  =  OFF      ]
+"32
+[p x WDTEN  =  OFF       ]
+"33
+[p x WDTPS  =  32768     ]
+"36
+[p x CCP2MX  =  RC1      ]
+"37
+[p x PBADEN  =  OFF      ]
+"38
+[p x T3CMX  =  RC0       ]
+"39
+[p x SDOMX  =  RB3       ]
+"40
+[p x MCLRE  =  ON        ]
+"43
+[p x STVREN  =  OFF      ]
+"44
+[p x LVP  =  ON          ]
+"45
+[p x ICPRT  =  OFF       ]
+"46
+[p x XINST  =  OFF       ]
+"49
+[p x CP0  =  OFF         ]
+"50
+[p x CP1  =  OFF         ]
+"51
+[p x CP2  =  OFF         ]
+"52
+[p x CP3  =  OFF         ]
+"55
+[p x CPB  =  OFF         ]
+"56
+[p x CPD  =  OFF         ]
+"59
+[p x WRT0  =  OFF        ]
+"60
+[p x WRT1  =  OFF        ]
+"61
+[p x WRT2  =  OFF        ]
+"62
+[p x WRT3  =  OFF        ]
+"65
+[p x WRTC  =  OFF        ]
+"66
+[p x WRTB  =  OFF        ]
+"67
+[p x WRTD  =  OFF        ]
+"70
+[p x EBTR0  =  OFF       ]
+"71
+[p x EBTR1  =  OFF       ]
+"72
+[p x EBTR2  =  OFF       ]
+"73
+[p x EBTR3  =  OFF       ]
+"76
+[p x EBTRB  =  OFF       ]

@@ -1,0 +1,196 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"21 C:\Users\Miguel-Notebook\MPLABXProjects\Pulsadores.X\newmain.c
+[v _luces_uno luces_uno `(v  1 e 1 0 ]
+"34
+[v _luces_dos luces_dos `(v  1 e 1 0 ]
+"47
+[v _luces_tres luces_tres `(v  1 e 1 0 ]
+"61
+[v _luces_cuatro luces_cuatro `(v  1 e 1 0 ]
+"76
+[v _initPort initPort `(v  1 e 1 0 ]
+"89
+[v _main main `(v  1 e 1 0 ]
+"232 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-K_DFP/1.8.249/xc8\pic\include\proc\pic18f45k50.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3931 ]
+"277
+[v _ANSELB ANSELB `VEuc  1 e 1 @3932 ]
+"327
+[v _ANSELC ANSELC `VEuc  1 e 1 @3933 ]
+[s S151 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"3083
+[s S228 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S236 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S239 . 1 `S151 1 . 1 0 `S228 1 . 1 0 `S236 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES239  1 e 1 @3969 ]
+[s S31 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"3205
+[s S40 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S47 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S54 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S58 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S61 . 1 `S31 1 . 1 0 `S40 1 . 1 0 `S47 1 . 1 0 `S54 1 . 1 0 `S58 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES61  1 e 1 @3970 ]
+"3779
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"3891
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"4003
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"4626
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S142 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4880
+[u S160 . 1 `S142 1 . 1 0 `S151 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES160  1 e 1 @3987 ]
+[s S182 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5100
+[s S191 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S198 . 1 `S182 1 . 1 0 `S191 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES198  1 e 1 @3988 ]
+[s S98 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"13175
+[s S101 . 1 `uc 1 IOCIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S110 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S115 . 1 `S98 1 . 1 0 `S101 1 . 1 0 `S110 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES115  1 e 1 @4081 ]
+"13 C:\Users\Miguel-Notebook\MPLABXProjects\Pulsadores.X\newmain.c
+[v _velocidad velocidad `l  1 e 4 0 ]
+"14
+[v _juego juego `uc  1 e 1 0 ]
+"89
+[v _main main `(v  1 e 1 0 ]
+{
+"116
+} 0
+"21
+[v _luces_uno luces_uno `(v  1 e 1 0 ]
+{
+"33
+} 0
+"47
+[v _luces_tres luces_tres `(v  1 e 1 0 ]
+{
+"59
+} 0
+"34
+[v _luces_dos luces_dos `(v  1 e 1 0 ]
+{
+"46
+} 0
+"61
+[v _luces_cuatro luces_cuatro `(v  1 e 1 0 ]
+{
+"73
+} 0
+"76
+[v _initPort initPort `(v  1 e 1 0 ]
+{
+"87
+} 0
