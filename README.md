@@ -1,7 +1,7 @@
 # PIC18F45K50
 How To Start with a PIC18F45K50
 
-Hello my name is Miguel Angel Herrera Sanchez, this is a repository about my little experiencie in Microcontroller PIC18F45K50.
+Hello my name is Miguel Angel Herrera Sanchez, this is a repository about my little experiencie with a Microcontroller PIC18F45K50.
 
 I recommend following this order
 
